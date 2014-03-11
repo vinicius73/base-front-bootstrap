@@ -1,3 +1,5 @@
+## @koala-prepend "vendor/bootstrap.min.js"
+## @koala-prepend "plugins.js"
 $("document").ready ->
   ProjetoCommom.init()
   return
