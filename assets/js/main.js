@@ -1,23 +1,16 @@
-$('document').ready(function () {
-    ProjetoCommom.init();
+var ProjetoCommom;
+
+$("document").ready(function() {
+  ProjetoCommom.init();
 });
 
-/**
- * Funções comuns ao site
- * @type {{init: Function, run: Function}}
- */
-var ProjetoCommom = {
-    /**
-     * Inicia
-     */
-    init: function () {
-        //Valida e chama as funções
-    },
+/*
+Funções comuns ao site
+@type {{init: Function, run: Function}}
+*/
 
-    /**
-     * Função de Slider
-     */
-    run: function () {
-        //codigo do slider
-    }
+
+ProjetoCommom = {
+  init: function() {},
+  run: function() {}
 };
