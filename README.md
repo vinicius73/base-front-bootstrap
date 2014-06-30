@@ -4,10 +4,11 @@
 Um projeto base para inicio rápido de projetos. Funciona como um Boilerplate, mais já nas especificações que uso em todos os projetos
 
 ### Recursos
-- jQuery 1.10.1
+- jQuery 2.1.1
+- jQuery Migrate 1.2.1
 - Modernizr 2.6.2
 - LessCSS
-- Bootstrap 3
+- Bootstrap 3.2
 - HTML5
 - index.php > Lista todos os arquivos *.php para fácil navegação
 

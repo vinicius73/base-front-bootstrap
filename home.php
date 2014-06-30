@@ -6,7 +6,6 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-
 	<title>HOME</title>
 
 	<link href="assets/css/main.css" rel="stylesheet">
@@ -37,8 +36,8 @@
 
 
 <!-- Javascript -->
-<script src="assets/js/vendor/jquery-1.10.1.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/vendor/jquery-2.1.1.min.js"></script>
+<script src="assets/js/vendor/jquery-migrate-1.2.1.min.js"></script>
+<script src="assets/js/app.min.js"></script>
 </body>
 </html>
