@@ -1,2 +1,2 @@
-// @koala-prepend "plugins.js"
-// @koala-prepend "main.js"
+// @koala-prepend "_plugins.js"
+// @koala-prepend "_main.js"
