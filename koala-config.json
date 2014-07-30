@@ -1,39 +1,21 @@
-// CoffeeScript project settings, you can edit it and set custom settings.
 {
-    // The mappings of source directory and output directory
     "mappings": [{
         "src": "assets/source",
-        "dest": "assets"
+        "dest": "assets/pub"
     }],
 
-    // Add the ignore rules that Koala will not search them.
-    // e.g. ["*.json", "*.txt", "test", "path/libs"]
-    "ignores": ["*.min.js", "*.min.css", "*.lib.css", "assets/source/css/bootstrap", "assets/source/css/lib"],
+    "ignores": ["*.min.js", "*.min.css", "*.lib.css", "assets/source/css/bootstrap", "assets/source/css/libs", "assets/source/js/libs", "assets/pub", "vendor/", "_*"],
 
-    // Compile options of CoffeeScript.
     "options": {
-
-        // Compile without a top-level function wrapper.
         "bare": false,
-
-        // Treat stdio as literate style coffee-script.
         "literate": false,
-
-        // Output style. Can be normal (default), compress.
         "outputStyle": "compress",
-
-        // Outputs filename and line numbers, which will output the debug info within comments.
-        "lineComments": false,
-
-        // Outputs filename and line numbers, which will output the information within a fake media query which is compatible with the SASS format.
+        "lineComments": true,
         "debugInfo": false,
-
         "strictMath": false,
-
         "strictUnits": false,
-
         "sourceMap": false
     },
 
-    "customOptions": ["coffee -h"]
+    "customOptions": []
 }
