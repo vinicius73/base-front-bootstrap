@@ -191,6 +191,21 @@ input[type="month"] {
   }
 }
 
+// IE 11 hack to reverse the iOS temporal input hack.
+_:-ms-fullscreen, :root input[type="date"],
+_:-ms-fullscreen, :root input[type="time"],
+_:-ms-fullscreen, :root input[type="datetime-local"],
+_:-ms-fullscreen, :root input[type="month"] {
+  line-height: @line-height-base;
+
+  &.input-sm {
+    line-height: @line-height-small;
+  }
+  &.input-lg {
+    line-height: @line-height-large;
+  }
+}
+
 
 // Form groups
 //
@@ -310,12 +325,12 @@ input[type="checkbox"] {
 
 .input-sm,
 .form-group-sm .form-control {
-  .input-size(@input-height-small; @padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+  .input-size(@input-height-small; @padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @input-border-radius-small);
 }
 
 .input-lg,
 .form-group-lg .form-control {
-  .input-size(@input-height-large; @padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+  .input-size(@input-height-large; @padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @input-border-radius-large);
 }
 
 

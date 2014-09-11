@@ -8,7 +8,7 @@ Um projeto base para inicio rápido de projetos. Funciona como um Boilerplate, m
 - jQuery Migrate 1.2.1
 - Modernizr 2.6.2
 - LessCSS
-- Bootstrap 3.2
+- Bootstrap 3.2.0
 - HTML5
 - index.php > Lista todos os arquivos *.php para fácil navegação
 
