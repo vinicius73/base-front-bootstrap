@@ -1,20 +1,14 @@
-(function () {
-   "use strict";
-   var Projeto;
+(function($) {
+    "use strict";
+    var run = function() {
+            slider();
+        },
+        slider = function() {
+            // do slider
+        }
 
-   $(document).ready(function () {
-      Projeto.init();
-   });
+    $(document).ready(function() {
+        run();
+    });
 
-   /**
-    * Funções do projeto
-    * @type {{init: init, run: run}}
-    */
-   Projeto = {
-      init: function () {
-      },
-      run: function () {
-      }
-   };
-
-}).call(this);
+}).call(JQuery);
