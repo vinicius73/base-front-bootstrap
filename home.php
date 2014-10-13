@@ -10,7 +10,7 @@
 
 	<link href="assets/pub/css/main.css" rel="stylesheet">
 
-	<script src="assets/pub/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="assets/pub/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>

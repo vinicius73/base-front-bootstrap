@@ -1,6 +1,23 @@
 // @koala-prepend "libs/bootstrap.min.js"
 // Avoid `console` errors in browsers that lack a console.
 (function() {
-    for (var a, e = function() {}, b = "assert clear count debug dir dirxml error exception group groupCollapsed groupEnd info log markTimeline profile profileEnd table time timeEnd timeStamp trace warn".split(" "), c = b.length, d = window.console = window.console || {}; c--;) a = b[c], d[a] || (d[a] = e)
-})();
-// Place any jQuery/helper plugins in here.
+    var method;
+    var noop = function () {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeline', 'timelineEnd', 'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
